@@ -6,7 +6,7 @@ public class DivisionException {
       if (denominator == 0) {
         throw new ArithmeticException("Division by zero is not allowed!");
       } else {
-        double result = (double) numerator / denominator; // Cast to double for floating-point division
+        double result = (double) numerator / denominator; // changing the type of result to duoble as divion contains decimals
         System.out.println("Result: " + result);
       }
     }
@@ -19,9 +19,7 @@ public class DivisionException {
         divideNumbers(num, den);
       } catch (ArithmeticException e) {
         System.out.println("Error: " + e.getMessage());
-      } finally {
-        // Optional: Code to be executed always (e.g., closing resources)
-      }
+      } 
     }
   }
   
