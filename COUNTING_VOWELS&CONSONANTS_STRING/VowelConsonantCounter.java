@@ -6,7 +6,7 @@ public class VowelConsonantCounter {
       int vowelCount = 0;
       int consonantCount = 0;
   
-      str = str.toLowerCase(); // Convert to lowercase for case-insensitive counting
+      str = str.toLowerCase(); // Converting to lower case for beterr understnding of case sensitive 
   
       for (char c : str.toCharArray()) {
         if (c >= 'a' && c <= 'z') {
