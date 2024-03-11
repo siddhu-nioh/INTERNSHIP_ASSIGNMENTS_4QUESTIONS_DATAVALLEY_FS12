@@ -9,7 +9,7 @@ public class NumberValidator {
 
     public static class CustomValidationException extends Exception {
       public CustomValidationException(String message) {
-        super(message);
+        super(message);  // in this code i am taking customvalidecxeption directly in the class by decalring as stactic as it can be acessed by static instaces like objects of the class
       }
     }
   
